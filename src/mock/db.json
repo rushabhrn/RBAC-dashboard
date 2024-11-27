@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "f606",
+      "name": "Dan",
+      "role": "Manager",
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "Read",
+        "Write",
+        "Delete"
+      ]
+    },
+    {
+      "id": "580a",
+      "name": "Manager ",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    }
+  ]
+}
